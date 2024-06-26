@@ -57,12 +57,7 @@ const App = () => {
       </View>
       <View style={styles.card}>
         <View style={styles.cardHeader}>
-          <View style={styles.chip}>
-            <Image
-              source={require('./assets/chip.png')}
-              style={styles.chipImage}
-            />
-          </View>
+          
         </View>
         <View style={styles.cardContent}>
           <Text style={styles.cardNumber}>4562 1122 4595 7852</Text>
@@ -122,7 +117,7 @@ const App = () => {
         <View style={styles.transactionItem}>
           <View style={styles.transactionIcon}>
             <Image
-              source={require('./assets/appstore.png')}
+              source={require('./assets/apple.png')}
               style={styles.transactionIconImage}
             />
           </View>
